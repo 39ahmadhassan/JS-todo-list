@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form" class="light">
+        <div class="overly"></div>
+        <div  class="form">
+            <div class="error">
+                <p id="error">please enter the something...</p>
+                <div>
+                    <button class="btn-normal" onclick="dark()">dark</button>
+                    <button class="btn-active" onclick="light()">light</button>
+                </div>
+            </div>
+            <h1>to-do list</h1>
+            <form action="">
+                <input type="text" id="input_data">
+                <button onclick="submitData(event)">add</button>
+            </form>
+            <ul id="show_data">
+            </ul>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
